@@ -11,14 +11,14 @@ package practiceirregularverbs;
 public class IrregularVerb {
     
     private String infinitive;
-    private String past_simple;
-    private String past_participle;
+    private String pastSimple;
+    private String pastParticiple;
 
-    public IrregularVerb(String infinitive, String past_simple, String past_participle) {
+    public IrregularVerb(String infinitive, String pastSimple, String pastParticiple) {
         // TODO Auto-generated constructor stub
         this.infinitive = infinitive;
-        this.past_simple = past_simple;
-        this.past_participle = past_participle;
+        this.pastSimple = pastSimple;
+        this.pastParticiple = pastParticiple;
     }
 
     public String  getInfinitive() {
@@ -26,10 +26,10 @@ public class IrregularVerb {
     }
 
     public String getPastSimple() {
-        return this.past_simple;
+        return this.pastSimple;
     }
 
     public String getPastParticiple() {
-        return this.past_participle;
+        return this.pastParticiple;
     }
 }
